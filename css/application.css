@@ -120,3 +120,9 @@ div.about p.info {
 		text-align: center;
 	}
 }
+
+@media only screen and (max-width: 400px) {
+	.social-links h3 {
+		font-size: 1.3em;
+	}
+}
