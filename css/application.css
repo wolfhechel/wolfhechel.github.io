@@ -71,11 +71,7 @@ div.about {
 	flex: 1;
 	display: flex;
 	flex-flow: column;
-	justify-content: flex-end;
 	font-size: 1.2em;
-}
-
-div.about p {
 }
 
 div.about p.info {
