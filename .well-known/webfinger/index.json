@@ -1,24 +1,29 @@
 {
-    "subject": "acct:pontus@jensenkarlsson.se",
+    "subject": "acct:jensenkarlsson@mastodon.nu",
     "aliases": [
-        "https://mastodon.nu/@jensenkarlsson",
-        "https://mastodon.nu/users/jensenkarlsson",
-        "jensenkarlsson@mastodon.nu"
+      "https://mastodon.nu/@jensenkarlsson",
+      "https://mastodon.nu/users/jensenkarlsson",
+      "jensenkarlsson@mastodon.nu"
     ],
     "links": [
-        {
-            "rel": "http://webfinger.net/rel/profile-page",
-            "type": "text/html",
-            "href": "https://mastodon.nu/@jensenkarlsson"
-        },
-        {
-            "rel": "self",
-            "type": "application/activity+json",
-            "href": "https://mastodon.nu/users/jensenkarlsson"
-        },
-        {
-            "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://mastodon.nu/authorize_interaction?uri={uri}"
-        }
+      {
+        "rel": "http://webfinger.net/rel/profile-page",
+        "type": "text/html",
+        "href": "https://mastodon.nu/@jensenkarlsson"
+      },
+      {
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://mastodon.nu/users/jensenkarlsson"
+      },
+      {
+        "rel": "http://ostatus.org/schema/1.0/subscribe",
+        "template": "https://mastodon.nu/authorize_interaction?uri={uri}"
+      },
+      {
+        "rel": "http://webfinger.net/rel/avatar",
+        "type": "image/jpeg",
+        "href": "https://media.mastodon.nu/accounts/avatars/109/312/464/361/524/902/original/f0d9a232782896cb.jpg"
+      }
     ]
-}
+  }
