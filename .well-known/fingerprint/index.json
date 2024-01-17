@@ -1,0 +1,24 @@
+{
+    "subject": "acct:pontus@jensenkarlsson.se",
+    "aliases": [
+        "https://mastodon.nu/@jensenkarlsson",
+        "https://mastodon.nu/users/jensenkarlsson",
+        "jensenkarlsson@mastodon.nu"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://mastodon.nu/@jensenkarlsson"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://mastodon.nu/users/jensenkarlsson"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://mastodon.nu/authorize_interaction?uri={uri}"
+        }
+    ]
+}
